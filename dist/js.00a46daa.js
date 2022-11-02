@@ -8832,14 +8832,14 @@ exports.default = _default2;
 module.exports = "/1.dc197a9a.jpg";
 },{}],"img/2.jpg":[function(require,module,exports) {
 module.exports = "/2.3ca6bb44.jpg";
-},{}],"img/3.jpg":[function(require,module,exports) {
-module.exports = "/3.a433b89d.jpg";
-},{}],"img/4.jpg":[function(require,module,exports) {
-module.exports = "/4.c6d96be5.jpg";
 },{}],"img/5.jpg":[function(require,module,exports) {
 module.exports = "/5.689b68fd.jpg";
 },{}],"img/6.jpg":[function(require,module,exports) {
 module.exports = "/6.e96dcfff.jpg";
+},{}],"img/4.jpg":[function(require,module,exports) {
+module.exports = "/4.c6d96be5.jpg";
+},{}],"img/3.jpg":[function(require,module,exports) {
+module.exports = "/3.a433b89d.jpg";
 },{}],"img/7.jpg":[function(require,module,exports) {
 module.exports = "/7.2d66e3ed.jpg";
 },{}],"img/*.jpg":[function(require,module,exports) {
@@ -8852,7 +8852,7 @@ module.exports = {
   "6": require("./6.jpg"),
   "7": require("./7.jpg")
 };
-},{"./1.jpg":"img/1.jpg","./2.jpg":"img/2.jpg","./3.jpg":"img/3.jpg","./4.jpg":"img/4.jpg","./5.jpg":"img/5.jpg","./6.jpg":"img/6.jpg","./7.jpg":"img/7.jpg"}],"js/menuItem.js":[function(require,module,exports) {
+},{"./1.jpg":"img/1.jpg","./2.jpg":"img/2.jpg","./5.jpg":"img/5.jpg","./6.jpg":"img/6.jpg","./4.jpg":"img/4.jpg","./3.jpg":"img/3.jpg","./7.jpg":"img/7.jpg"}],"js/menuItem.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -9269,7 +9269,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59462" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60079" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
